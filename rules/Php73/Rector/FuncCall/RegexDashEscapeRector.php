@@ -30,9 +30,9 @@ final class RegexDashEscapeRector extends AbstractRector implements MinPhpVersio
 
     /**
      * @var string
-     * @see https://regex101.com/r/YgVJFp/1
+     * @see https://regex101.com/r/zlR5Ul/1
      */
-    private const LEFT_HAND_UNESCAPED_DASH_REGEX = '#(\[.*?\\\\(w|s|d))-(?!\])#i';
+    private const LEFT_HAND_UNESCAPED_DASH_REGEX = '#(\[[^\]]*?\\\\(w|s|d))-(?!\])#i';
 
     /**
      * @var string
